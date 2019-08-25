@@ -1,12 +1,14 @@
 package main
 
-import ("fmt"
+import (
+	"fmt"
+
 	"github.com/crianonim/go-train/myfirstlib"
 )
 
-func main(){
+func main() {
 	fmt.Printf("Hello, me")
-	s:="Jan"
-	i:=myfirstlib.Mflen(s)
+	s := "Jan"
+	i := myfirstlib.Mflen(s)
 	fmt.Println(i)
 }
